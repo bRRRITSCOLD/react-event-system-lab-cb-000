@@ -9,5 +9,7 @@ ReactDOM.render(
     <Keypad />
     <EyesOnMe />
   </div>,
-  document.getElementById('global')
+  document.getElementById('main')
 );
+
+require('./test/index-test.js'); // Leave this in!
